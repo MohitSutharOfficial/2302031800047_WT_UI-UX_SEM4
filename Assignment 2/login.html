@@ -1,0 +1,66 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Login Page
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="flex items-center justify-center min-h-screen bg-gray-100">
+  <div class="flex w-full max-w-4xl bg-white shadow-lg">
+   <!-- Left Side -->
+   <div class="w-1/2 p-8">
+    <h2 class="mb-4 text-2xl font-bold">
+     Welcome back
+    </h2>
+    <p class="mb-8 text-gray-600">
+     Please enter your details
+    </p>
+    <form>
+     <div class="mb-4">
+      <label class="block mb-2 text-sm font-medium text-gray-700" for="email">
+       Email address
+      </label>
+      <input class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600" id="email" required="" type="email"/>
+     </div>
+     <div class="mb-4">
+      <label class="block mb-2 text-sm font-medium text-gray-700" for="password">
+       Password
+      </label>
+      <input class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600" id="password" required="" type="password"/>
+     </div>
+     <div class="flex items-center justify-between mb-6">
+      <label class="flex items-center text-sm text-gray-600">
+       <input class="mr-2" type="checkbox"/>
+       Remember for 30 days
+      </label>
+      <a class="text-sm text-purple-600 hover:underline" href="#">
+       Forgot password
+      </a>
+     </div>
+     <button class="w-full px-4 py-2 mb-4 text-white bg-purple-600 rounded-md hover:bg-purple-700">
+      Sign in
+     </button>
+     <button class="w-full px-4 py-2 mb-4 text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-100">
+      <i class="fab fa-google mr-2">
+      </i>
+      Sign in with Google
+     </button>
+     <p class="text-sm text-center text-gray-600">
+      Don't have an account?
+      <a class="text-purple-600 hover:underline" href="#">
+       Sign up
+      </a>
+     </p>
+    </form>
+   </div>
+   <!-- Right Side -->
+   <div class="relative w-1/2 bg-purple-100">
+    <img alt="Illustration of a woman with various icons in the background" class="absolute inset-0 object-cover w-full h-full" height="800" src="https://storage.googleapis.com/a1aa/image/f1K-1N4WFzNS22UmaKew5mRJLxbq0pixJj6mI4BPgrw.jpg" width="600"/>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,472 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title> Discover Stories</title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100 font-sans">
+    <!-- navbar -->
+    <header class="bg-black text-white p-4 flex justify-between items-center">
+        <div class="text-lg font-bold">
+         CollabTale
+        </div>
+        <nav class="space-x-4">
+         <a class="hover:underline" href="index.html">
+          Home
+         </a>
+         <a class="hover:underline" href="story.html">
+          Story Creation
+         </a>
+         <a class="hover:underline" href="story.html">
+          StorySharing
+         </a>
+         <button class="bg-gray-800 px-4 py-2 rounded hover:bg-gray-700"><a href="login.html" target="_parent">   Log In</a>
+       
+         </button>
+         <button class="bg-gray-800 px-4 py-2 rounded hover:bg-gray-700"><a href="login.html" target="_parent">    Sign up</a>
+       
+         
+         </button>
+        </nav>
+       </header>
+  <div class="flex h-screen">
+   <!-- Sidebar -->
+   <div class="w-1/5 bg-gray-900 text-white p-4 flex flex-col justify-between">
+    <div>
+     <h1 class="text-2xl font-bold mb-6">
+      Discover Stories
+     </h1>
+     <ul>
+      <li class="mb-4 flex items-center">
+       <i class="fas fa-comments mr-2">
+       </i>
+       <span>
+        Chat
+       </span>
+      </li>
+      <li class="mb-4 flex items-center">
+       <i class="fas fa-eye mr-2">
+       </i>
+       <span>
+        View
+       </span>
+      </li>
+      <li class="mb-4 flex items-center bg-gray-700 p-2 rounded">
+       <i class="fas fa-book mr-2">
+       </i>
+       <span>
+        Story Details
+       </span>
+      </li>
+      <li class="mb-4 flex items-center">
+       <i class="fas fa-users mr-2">
+       </i>
+       <span>
+        Collaborators
+       </span>
+      </li>
+      <li class="mb-4 flex items-center">
+       <i class="fas fa-clock mr-2">
+       </i>
+       <span>
+        Timeline
+       </span>
+      </li>
+      <li class="mb-4 flex items-center">
+       <i class="fas fa-tasks mr-2">
+       </i>
+       <span>
+        Tasks
+       </span>
+      </li>
+     </ul>
+     <h2 class="text-lg font-semibold mt-6 mb-2">
+      Notifications
+     </h2>
+     <ul>
+      <li class="mb-4 flex items-center">
+       <i class="fas fa-lightbulb mr-2">
+       </i>
+       <span>
+        Creative Ideas
+       </span>
+      </li>
+      <li class="mb-4 flex items-center">
+       <i class="fas fa-lock mr-2">
+       </i>
+       <span>
+        Privacy
+       </span>
+      </li>
+      <li class="mb-4 flex items-center">
+       <i class="fas fa-cog mr-2">
+       </i>
+       <span>
+        Settings
+       </span>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <div class="flex items-center mb-4">
+      <img alt="User profile picture" class="rounded-full mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/udqsGZULJFmL9Wje1Jzfqcum55y_TCJtXL2qkJLImyc.jpg" width="40"/>
+      <div>
+       <p>
+        John Smith
+       </p>
+       <p class="text-gray-400 text-sm">
+        johnsmith@email.def
+       </p>
+      </div>
+     </div>
+     <div class="flex items-center">
+      <i class="fas fa-paint-brush mr-2">
+      </i>
+      <span>
+       Customize
+      </span>
+     </div>
+    </div>
+   </div>
+   <!-- Main Content -->
+   <div class="flex-1 flex flex-col">
+    <!-- Header -->
+    <div class="flex items-center justify-between bg-white p-4 shadow">
+     <input class="w-1/2 p-2 border rounded" placeholder="Search for stories" type="text"/>
+     <div class="flex items-center">
+      <img alt="User profile picture" class="rounded-full mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/udqsGZULJFmL9Wje1Jzfqcum55y_TCJtXL2qkJLImyc.jpg" width="40"/>
+      <span>
+       Ben Goro
+      </span>
+     </div>
+    </div>
+    <!-- Content -->
+    <div class="flex-1 flex overflow-hidden">
+     <!-- Left Column -->
+     <div class="w-3/5 p-4 overflow-y-auto">
+      <div class="bg-white p-4 rounded shadow mb-4">
+       <div class="flex items-center mb-4">
+        <img alt="User profile picture" class="rounded-full mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/udqsGZULJFmL9Wje1Jzfqcum55y_TCJtXL2qkJLImyc.jpg" width="40"/>
+        <input class="w-full p-2 border rounded" placeholder="Share your thoughts about this story." type="text"/>
+       </div>
+       <div class="flex justify-between">
+        <div class="flex space-x-4">
+         <i class="fas fa-image">
+         </i>
+         <i class="fas fa-video">
+         </i>
+         <i class="fas fa-smile">
+         </i>
+        </div>
+        <button class="bg-black text-white px-4 py-2 rounded">
+         Post
+        </button>
+       </div>
+      </div>
+      <div class="bg-white p-4 rounded shadow mb-4">
+       <div class="flex items-center mb-2">
+        <img alt="User profile picture" class="rounded-full mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/udqsGZULJFmL9Wje1Jzfqcum55y_TCJtXL2qkJLImyc.jpg" width="40"/>
+        <div>
+         <p class="font-semibold">
+          Robert Hammond is feeling inspired
+         </p>
+         <p class="text-gray-400 text-sm">
+          20 min. ago
+         </p>
+        </div>
+       </div>
+       <p class="mb-4">
+        A collaborative story about a couple's surprise trip to Sri Lanka. Follow their journey as they explore the country's rich culture, breathtaking landscapes, and exotic cuisine.
+       </p>
+       <div class="grid grid-cols-2 gap-2 mb-4">
+        <img alt="Beach view" class="rounded" height="200" src="https://storage.googleapis.com/a1aa/image/_en_rNTrDzkzqTtz8WhopVPXy5NzSWYmHcjNZ47tM3w.jpg" width="200"/>
+        <img alt="Couple enjoying the view" class="rounded" height="200" src="https://storage.googleapis.com/a1aa/image/vRJmgUfajgTk-aOPIEEvPTUiEu2EC4Xnb_JasSqYc3g.jpg" width="200"/>
+       </div>
+       <div class="flex justify-between">
+        <div class="flex space-x-4">
+         <i class="fas fa-thumbs-up">
+         </i>
+         <i class="fas fa-comment">
+         </i>
+         <i class="fas fa-share">
+         </i>
+        </div>
+        <i class="fas fa-ellipsis-h">
+        </i>
+       </div>
+      </div>
+      <div class="bg-white p-4 rounded shadow mb-4">
+       <div class="flex items-center mb-2">
+        <img alt="User profile picture" class="rounded-full mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/udqsGZULJFmL9Wje1Jzfqcum55y_TCJtXL2qkJLImyc.jpg" width="40"/>
+        <div>
+         <p class="font-semibold">
+          Amelie Shiba created a new story
+         </p>
+         <p class="text-gray-400 text-sm">
+          Thursday, 17 August 10:40 AM
+         </p>
+        </div>
+       </div>
+       <p class="mb-4">
+        Clothing swap party at my place. Bring your clothes and let's have fun.
+        <i class="fas fa-smile">
+        </i>
+       </p>
+       <div class="grid grid-cols-5 gap-2 mb-4">
+        <img alt="Clothing item 1" class="rounded" height="100" src="https://storage.googleapis.com/a1aa/image/vG47X4hbnipPMzJmrjykKtOEDaV9kKMMwP8JqVE1H70.jpg" width="100"/>
+        <img alt="Clothing item 2" class="rounded" height="100" src="https://storage.googleapis.com/a1aa/image/pgBySFqoQX9U4Wx2IsfFHMtlmKP2EEGHoPk0qavK1fY.jpg" width="100"/>
+        <img alt="Clothing item 3" class="rounded" height="100" src="https://storage.googleapis.com/a1aa/image/k-_SvTTtc6npnKBO-TVPX5IQ40VCUJAZ2HKZDgq2ang.jpg" width="100"/>
+        <img alt="Clothing item 4" class="rounded" height="100" src="https://storage.googleapis.com/a1aa/image/KFK6amcqV8B4y4sjuNaUaZlfl6HhNGNsxUfL-aCkc4I.jpg" width="100"/>
+        <img alt="Clothing item 5" class="rounded" height="100" src="https://storage.googleapis.com/a1aa/image/LSye_OIUEvtYWILDeOQ5Lx6ExpV2VqoZrXALMfwh8U8.jpg" width="100"/>
+       </div>
+      </div>
+      <div class="bg-white p-4 rounded shadow mb-4">
+       <div class="flex items-center mb-2">
+        <img alt="User profile picture" class="rounded-full mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/udqsGZULJFmL9Wje1Jzfqcum55y_TCJtXL2qkJLImyc.jpg" width="40"/>
+        <div>
+         <p class="font-semibold">
+          Pablo Morandi
+         </p>
+         <p class="text-gray-400 text-sm">
+          Wednesday, 16 August 2:20 PM
+         </p>
+        </div>
+       </div>
+       <p class="mb-4">
+        A story about a music gig gone wrong. Join the conversation and share your own experiences.
+        <i class="fas fa-guitar">
+        </i>
+       </p>
+       <div class="flex justify-between">
+        <div class="flex space-x-4">
+         <i class="fas fa-thumbs-up">
+         </i>
+         <span>
+          (1)
+         </span>
+         <i class="fas fa-comment">
+         </i>
+         <span>
+          (2)
+         </span>
+         <i class="fas fa-share">
+         </i>
+        </div>
+        <i class="fas fa-ellipsis-h">
+        </i>
+       </div>
+      </div>
+     </div>
+     <!-- Right Column -->
+     <div class="w-2/5 p-4 overflow-y-auto">
+      <div class="bg-white p-4 rounded shadow mb-4">
+       <h2 class="font-semibold mb-2">
+        Upcoming events
+       </h2>
+       <ul>
+        <li class="mb-2 flex items-center">
+         <div class="bg-black text-white rounded-full w-8 h-8 flex items-center justify-center mr-2">
+          BBQ
+         </div>
+         <div>
+          <p>
+           BBQ party
+          </p>
+          <p class="text-gray-400 text-sm">
+           Sat 16 June, Central Park
+          </p>
+         </div>
+        </li>
+        <li class="mb-2 flex items-center">
+         <div class="bg-black text-white rounded-full w-8 h-8 flex items-center justify-center mr-2">
+          CV
+         </div>
+         <div>
+          <p>
+           Community vote
+          </p>
+          <p class="text-gray-400 text-sm">
+           Sat 16 June, Town Hall
+          </p>
+         </div>
+        </li>
+        <li class="mb-2 flex items-center">
+         <div class="bg-black text-white rounded-full w-8 h-8 flex items-center justify-center mr-2">
+          ME
+         </div>
+         <div>
+          <p>
+           Live music event
+          </p>
+          <p class="text-gray-400 text-sm">
+           Sat 16 June, Music Hall
+          </p>
+         </div>
+        </li>
+        <li class="mb-2 flex items-center">
+         <div class="bg-black text-white rounded-full w-8 h-8 flex items-center justify-center mr-2">
+          SC
+         </div>
+         <div>
+          <p>
+           Stand-up comedy show
+          </p>
+          <p class="text-gray-400 text-sm">
+           Sat 16 June, Comedy Club
+          </p>
+         </div>
+        </li>
+        <li class="mb-2 flex items-center">
+         <div class="bg-black text-white rounded-full w-8 h-8 flex items-center justify-center mr-2">
+          DS
+         </div>
+         <div>
+          <p>
+           Discover stories on
+          </p>
+          <p class="text-gray-400 text-sm">
+           Sat 16 June, Toms Garden
+          </p>
+         </div>
+        </li>
+       </ul>
+      </div>
+      <div class="bg-white p-4 rounded shadow mb-4">
+       <h2 class="font-semibold mb-2">
+        Birthdays
+       </h2>
+       <ul>
+        <li class="mb-2">
+         <p>
+          20 August
+         </p>
+         <p class="text-gray-400 text-sm">
+          Bob Hammond - Celebrating 28 years of life
+         </p>
+        </li>
+        <li class="mb-2">
+         <p>
+          20 August
+         </p>
+         <p class="text-gray-400 text-sm">
+          Harper Mitchell - Celebrating 25 years of life
+         </p>
+        </li>
+        <li class="mb-2">
+         <p>
+          22 August
+         </p>
+         <p class="text-gray-400 text-sm">
+          Mason Cooper - Celebrating 30 years of life
+         </p>
+        </li>
+        <li class="mb-2">
+         <p>
+          1 September
+         </p>
+         <p class="text-gray-400 text-sm">
+          Isabel Hughes - Celebrating 21 years of life
+         </p>
+        </li>
+       </ul>
+      </div>
+      <div class="bg-white p-4 rounded shadow mb-4">
+       <h2 class="font-semibold mb-2">
+        Advertising
+       </h2>
+       <div class="flex items-center">
+        <img alt="Sale advertisement" class="mr-2" height="50" src="https://storage.googleapis.com/a1aa/image/EBDxlNn6o3CnQxV7fprym9iFq9Sr5mfAPyZNhdYbxTE.jpg" width="100"/>
+        <div>
+         <p>
+          Summer sale is on
+         </p>
+         <p class="text-gray-400 text-sm">
+          Get your favorite stories with reduced prices up to 70% off.
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="bg-white p-4 rounded shadow mb-4">
+       <h2 class="font-semibold mb-2">
+        Collaboration chats
+       </h2>
+       <ul>
+        <li class="mb-2 flex items-center">
+         <img alt="Featured stories" class="rounded-full mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/gcinkjjNV8w99iS-V_tb0imNdvYuXMqBk1NwDbI3V8Y.jpg" width="40"/>
+         <span>
+          Featured stories
+         </span>
+        </li>
+        <li class="mb-2 flex items-center">
+         <img alt="Popular stories" class="rounded-full mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/-vdRAV-Ac48yEfyZi6Nd18Cad8ZABXGT0iW-98CkkM8.jpg" width="40"/>
+         <span>
+          Popular stories
+         </span>
+        </li>
+        <li class="mb-2 flex items-center">
+         <img alt="New stories" class="rounded-full mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/e3-tcZsx7KoYZYceaHwL1s9yuYP6d1o1VAyFG8yKfps.jpg" width="40"/>
+         <span>
+          New stories
+         </span>
+        </li>
+       </ul>
+      </div>
+      <div class="bg-white p-4 rounded shadow mb-4">
+       <h2 class="font-semibold mb-2">
+        Collaboration groups
+       </h2>
+       <ul>
+        <li class="mb-2">
+         Writing community
+        </li>
+        <li class="mb-2">
+         Storytelling tips
+        </li>
+        <li class="mb-2">
+         Story prompts
+        </li>
+        <li class="mb-2">
+         Writing contests
+        </li>
+       </ul>
+      </div>
+      <div class="bg-white p-4 rounded shadow mb-4">
+       <h2 class="font-semibold mb-2">
+        Collaboration requests
+       </h2>
+       <ul>
+        <li class="mb-2 flex items-center">
+         <img alt="John Smith" class="rounded-full mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/5GQmD-E6swQgH85tzTUmj8mR8ai4j6O-r1FtroBjIcA.jpg" width="40"/>
+         <span>
+          John Smith
+         </span>
+        </li>
+        <li class="mb-2 flex items-center">
+         <img alt="Emily Johnson" class="rounded-full mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/u2Ce1fACptGtLzcwsC-x5k2JuDoYEnrqOco9VKhAfXk.jpg" width="40"/>
+         <span>
+          Emily Johnson
+         </span>
+        </li>
+        <li class="mb-2 flex items-center">
+         <img alt="David Lee" class="rounded-full mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/bGrkhaJ0sSuGzIEafdfo0wbCfH8PVOWm57ih87vQ8QU.jpg" width="40"/>
+         <span>
+          David Lee
+         </span>
+        </li>
+        <li class="mb-2 flex items-center">
+         <img alt="Mary Wilson" class="rounded-full mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/FlrA1aD4xxyjq-NQXm7lnIvDZrzpYdPPRQjohloijDw.jpg" width="40"/>
+         <span>
+          Mary Wilson
+         </span>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
